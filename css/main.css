@@ -8,7 +8,7 @@ html {
   margin: 0;
   padding: 10px;
   width: 250px;
-
+  position: absolute;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
@@ -22,4 +22,26 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+}
+
+.polaroid:hover {
+
+}
+
+.polaroid:nth-child(1) {
+  left: 22%;
+  top: 100px;
+  transform: rotate(-11deg);
+}
+
+.polaroid:nth-child(2) {
+  left: 38%;
+  top: 100px;
+  transform: rotate(33deg);
+}
+
+.polaroid:nth-child(3) {
+  left: 30%;
+  top: 150px;
+  transform: rotate(4deg);
 }
